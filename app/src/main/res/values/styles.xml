@@ -4,9 +4,25 @@
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">#4568DC</item>
+        <item name="colorAccent">#fff</item>
         <item name="android:textColorSecondary">@android:color/white</item>
+
     </style>
+
+
+    <style name="AppThemeTwo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- customize the color palette -->
+        <item name="android:colorPrimary">@color/colorPrimary_2</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark_2</item>
+        <item name="android:colorAccent">@color/colorAccent_2</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
 
 </resources>

@@ -7,18 +7,18 @@
         android:id="@+id/app_bar_fav"
         android:icon="@drawable/baseline_favorite_white_24"
         android:title="@string/action_favorite"
+        android:visible="false"
         app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/app_bar_search"
         android:icon="@drawable/baseline_search_white_24"
         android:title="@string/action_search"
+        android:visible="false"
         app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/app_bar_settings"
         android:title="@string/action_settings"
         app:showAsAction="never"/>
-    <!--tools:ignore="AppCompatResource" />-->
-
 </menu>

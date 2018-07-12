@@ -16,5 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BottomBar_1" />
+        <activity android:name=".BottomBar_2" />
+        <activity android:name=".BottomBar_3" />
+        <activity android:name=".BottomBar_4" />
+        <activity android:name=".BottomBar_5" />
+        <activity android:name=".BottomBar_6" />
+        <activity android:name=".BottomBar_7" />
+        <activity android:name=".BottomBar_8" />
+        <activity android:name=".About" />
+        <activity android:name=".License" />
+        <activity android:name=".BottomBar_9" />
+        <activity android:name=".BottomBar_10" />
+        <activity android:name=".BottomBar_11"></activity>
     </application>
+
 </manifest>
