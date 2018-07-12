@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".About">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/jatpack"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/button_shadow_color"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/about_version"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view_1" />
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/button_shadow_color"
+            app:layout_constraintTop_toBottomOf="@+id/version" />
+
+        <TextView
+            android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/about_connect"
+            android:textStyle="normal"
+            app:layout_constraintTop_toBottomOf="@+id/view_2" />
+
+        <ImageView
+            android:id="@+id/envelope"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/envelope"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/connect" />
+
+        <TextView
+            android:id="@+id/textview_envelope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/about_contact"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/envelope"
+            app:layout_constraintTop_toBottomOf="@id/connect" />
+
+        <View
+            android:id="@+id/view_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/button_shadow_color"
+            app:layout_constraintTop_toBottomOf="@+id/envelope" />
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/facebook"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_3" />
+
+        <TextView
+            android:id="@+id/textview_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/about_like_facebook"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/facebook"
+            app:layout_constraintTop_toBottomOf="@id/view_3" />
+
+        <View
+            android:id="@+id/view_4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/button_shadow_color"
+            app:layout_constraintTop_toBottomOf="@+id/facebook" />
+
+        <ImageView
+            android:id="@+id/github"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/git"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_4" />
+
+        <TextView
+            android:id="@+id/textview_github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/about_follow_git"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/github"
+            app:layout_constraintTop_toBottomOf="@id/view_4" />
+
+        <View
+            android:id="@+id/view_5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/button_shadow_color"
+            app:layout_constraintTop_toBottomOf="@+id/github" />
+
+        <ImageView
+            android:id="@+id/linkedin"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/linkd"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_5" />
+
+        <TextView
+            android:id="@+id/textview_linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/about_my_profile"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/linkedin"
+            app:layout_constraintTop_toBottomOf="@id/view_5" />
+
+        <View
+            android:id="@+id/view_6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/button_shadow_color"
+            app:layout_constraintTop_toBottomOf="@+id/linkedin" />
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.bottomappbar.BottomAppBar
+                android:id="@+id/bottom_app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:backgroundTint="#2cbcc9"
+                app:backgroundTint="@color/colorPrimary"
+                app:fabAlignmentMode="end"
+                app:fabAttached="true" />
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_bottom"
+                app:layout_anchor="@id/bottom_app_bar" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

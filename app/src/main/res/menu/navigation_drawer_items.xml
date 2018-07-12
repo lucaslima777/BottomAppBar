@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <group>
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/linkedin"
+            android:title="@string/action_profile" />
+        <item
+            android:id="@+id/projects"
+            android:icon="@drawable/github"
+            android:title="@string/action_projects"/>
+
+        <item
+            android:id="@+id/inbox"
+            android:icon="@drawable/gmail"
+            android:title="@string/action_inbox"/>
+
+
+        <item android:title="Help">
+            <menu>
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/inform"
+                    android:title="About" />
+                <item
+                    android:id="@+id/license"
+                    android:icon="@drawable/license"
+                    android:title="License" />
+            </menu>
+        </item>
+    </group>
+</menu>
