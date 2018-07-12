@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_layout_width">100dp</dimen>
+    <dimen name="button_layout_height">50dp</dimen>
+    <dimen name="button_shadow_dx">0</dimen>
+    <dimen name="button_shadow_dy">0</dimen>
+    <dimen name="button_shadow_radius">5</dimen>
+    <dimen name="button_text_size">10sp</dimen>
+    <dimen name="button_layout_margin_top">55dp</dimen>
+
+    <dimen name="button_margin">20dp</dimen>
+</resources>
